@@ -6,7 +6,7 @@ export default defineConfig({
   trailingSlash: 'ignore',
   build: {
     // distDir: 'dist',
-    assets: 'dist',
+    assets: 'assets',
     format: 'file',  // This ensures separate folders for each page
     outDir: 'dist',       // Output directory
     inlineStylesheets: 'never',
